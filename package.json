@@ -6,6 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "build:pages": "BUILD_STATIC=true next build",
+    "serve:pages": "npx --yes serve out",
     "lint": "eslint"
   },
   "dependencies": {
